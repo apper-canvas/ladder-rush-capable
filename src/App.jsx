@@ -4,8 +4,6 @@ import Layout from './Layout.jsx';
 import { routes } from './config/routes.js';
 
 function App() {
-  const DefaultComponent = routes[0]?.component;
-  
   return (
     <BrowserRouter>
       <Routes>
@@ -17,7 +15,7 @@ function App() {
               element={<route.component />} 
             />
           ))}
-          {DefaultComponent && <Route index element={<DefaultComponent />} />}
+          <Route index element={<routes[0].component />} />
         </Route>
       </Routes>
       <ToastContainer
