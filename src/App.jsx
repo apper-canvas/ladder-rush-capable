@@ -12,13 +12,10 @@ function App() {
             <Route 
               key={route.id} 
               path={route.path} 
-element={<route.component />} 
+              element={<route.component />} 
             />
           ))}
-          {routes.length > 0 && (() => {
-            const IndexComponent = routes[0].component;
-            return <Route index element={<IndexComponent />} />;
-          })()}
+          <Route index element={<routes[0].component />} />
         </Route>
       </Routes>
       <ToastContainer
