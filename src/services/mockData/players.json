@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "You",
+    "position": 0,
+    "color": "#FF6B6B",
+    "isAI": false
+  },
+  {
+    "id": 2,
+    "name": "AI Player",
+    "position": 0,
+    "color": "#4ECDC4",
+    "isAI": true,
+    "difficulty": "medium"
+  }
+]

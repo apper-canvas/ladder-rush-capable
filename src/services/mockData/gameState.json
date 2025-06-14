@@ -1,0 +1,9 @@
+{
+  "currentPlayer": 0,
+  "playerPositions": [0, 0],
+  "gameStatus": "waiting",
+  "turnCount": 0,
+  "lastDiceRoll": null,
+  "winner": null,
+  "players": []
+}
